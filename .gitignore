@@ -1,0 +1,10 @@
+# Binary folders
+cmake-build-*/
+build/
+target/
+
+# Editor cache
+.vs/
+.vscode/
+.idea/
+*.iml
