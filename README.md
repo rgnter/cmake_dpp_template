@@ -1,17 +1,16 @@
 # CMake DPP template
 Cross-platform template for Discord bot written with DPP library and modern CMake build system. 
 
-### Get the repository.
-You can either your own Github repository from this template, or you can just download it directly as a zip file.
-
-### Set up the repository.
+### I. Get the repository.
+You can create your own Github repository from this template.
+### II. Set up the repository.
 Open terminal in the project directory and initialize the submodules with the following command:
 ```bash
-git init && git submodule update --init --recursive
+git submodule update --init --recursive
 ```
 
-### Build the project
-#### No IDE, just CLI
+### III. Build the project
+#### No IDE, just CLIgit in
 In the project directory, create the build folder and generate the CMake.
 ```bash
 mkdir build && cd build

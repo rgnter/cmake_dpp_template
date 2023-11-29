@@ -30,6 +30,6 @@ target_link_libraries(bot
 add_custom_command(
         TARGET bot POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
-        "$<TARGET_PROPERTY:dpp,BINARY_DIR>/"
+        "$<TARGET_PROPERTY:dpp,BINARY_DIR>/*.dll"
         "$<TARGET_PROPERTY:bot,BINARY_DIR>/"
 )
