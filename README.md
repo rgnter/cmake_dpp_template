@@ -10,7 +10,7 @@ git submodule update --init --recursive
 ```
 
 ### III. Build the project
-#### No IDE, just CLIgit in
+#### No IDE, just CLI
 In the project directory, create the build folder and generate the CMake.
 ```bash
 mkdir build && cd build
